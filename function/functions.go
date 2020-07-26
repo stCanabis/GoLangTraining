@@ -13,6 +13,7 @@ func sum(data ...int) int {
 	for _, val := range data {
 		result += val
 	}
+
 	return result
 }
 
